@@ -12,13 +12,5 @@ public class paymentStrategy {
         //这里
         System.out.println(order.pay(PayType.WECHAT_PAY));
 
-        new ArrayList<Object>().sort(new Comparator() {
-            @Override
-            public int compare(Object o1, Object o2) {
-                return 0;
-            }
-        });
-
-
     }
 }

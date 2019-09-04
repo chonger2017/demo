@@ -1,6 +1,6 @@
 package com.example.designmode.decorator.passport.old;
 
-@Deprecated
+//@Deprecated
 public class SignService implements ISignService {
     /**
      * 注册方法
@@ -19,6 +19,7 @@ public class SignService implements ISignService {
      * @return
      */
     public ResultMap login(String username, String password) {
+        System.out.println(username + "=" +password + "登陆");
         return null;
     }
 }
